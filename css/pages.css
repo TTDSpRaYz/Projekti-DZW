@@ -1,0 +1,11 @@
+.restaurant-intro {
+    max-width: 1000px;
+    margin: 60px auto 40px auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.restaurant-intro h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
