@@ -9,3 +9,58 @@
     font-size: 2.2rem;
     margin-bottom: 1rem;
 }
+
+.restaurant-gallery h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.foto1 {
+    margin: 0 auto 80px auto;
+    width: 92%;
+    max-width: 1300px;
+}
+
+.foto1 img {
+    display: block;
+    height: 65vh;
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.foto1 figcaption {
+    margin-top: 12px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: left;
+}
+
+.foto2 {
+    width: 92%;
+    max-width: 1300px;
+    margin: 0 auto 60px auto;
+}
+
+.foto2 figure {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.foto2 img {
+    width: 32%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.foto2 figcaption {
+    margin-top: 12px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: left;
+}
