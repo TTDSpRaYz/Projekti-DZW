@@ -75,9 +75,32 @@
     text-align: center;
 }
 
-.spa-intro h1 {
+.spa-intro h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.spa-intro h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
+}
+
+.spa-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.spa-banner {
+    margin: 0 auto 80px auto;
+    width: 92%;
+    max-width: 1300px;
+}
+
+.spa-banner-img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
 
 .spa-gallery h2 {
@@ -86,110 +109,43 @@
     text-align: center;
 }
 
-.spa-highlights {
+.spa-cards {
+    width: 92%;
+    max-width: 1300px;
     margin: 0 auto 60px auto;
-    width: 90%;
-    max-width: 1100px;
-}
-
-.spa-highlights figure {
-    margin: 0;
-}
-
-.spa-highlights img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 12px;
-}
-
-.spa-highlights figcaption {
-    margin-top: 12px;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    text-align: left;
-}
-
-.spa-slider-wrapper {
-    width: 85%;
-    max-width: 1000px;
-    margin: 0 auto 60px auto;
-}
-
-.spa-slider-wrapper h3 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.spa-viewport {
-    overflow: hidden;
-}
-
-.spa-slider {
-    list-style: none;
     display: flex;
-    padding: 0;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.spa-card {
+    width: 32%;
     margin: 0;
 }
 
-.spa-slide {
-    width: 100%;
-    flex-shrink: 0;
-}
-
-.spa-slide figure {
-    margin: 0;
-}
-
-.spa-slide img {
+.spa-card img {
     display: block;
     width: 100%;
-    height: 380px;
+    height: 450px;
     object-fit: cover;
 }
 
-.spa-slide figcaption {
+.spa-card figcaption {
     margin-top: 12px;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
     text-align: left;
 }
 
-.slider-controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    margin-top: 16px;
+.spa-card figcaption h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 0 0 8px 0;
 }
 
-.slider-btn {
-    padding: 8px 16px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.slider-dots {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    padding: 0;
+.spa-card figcaption p {
+    font-size: 0.9rem;
+    line-height: 1.5;
     margin: 0;
 }
 
-.dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 1px solid #333;
-    background-color: transparent;
-    cursor: pointer;
-}
 
-.dot.active {
-    background-color: #333;
-}
